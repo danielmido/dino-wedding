@@ -28,7 +28,9 @@ body {
   min-height: 100vh;
 }
 
-.hero h1, .hero h4, .hero p {
+.hero h1,
+.hero h4,
+.hero p {
   text-shadow: var(--shadow);
 }
 
@@ -65,7 +67,8 @@ body {
   height: 100vh;
 }
 
-.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
   font-size: 3.2rem;
   font-weight: bold;
@@ -173,9 +176,8 @@ body {
     padding: 70px;
   }
 }
+
 /* tablet */
-
-
 @media(max-width: 768px) {
   html {
     font-size: 65%;
@@ -191,6 +193,14 @@ body {
     text-align: center;
   }
 }
+
+@media(min-width: 768px) {
+  .mynavbar {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.3) !important;
+  }
+}
+
 /* mobile */
 @media(max-width: 576px) {
   html {
