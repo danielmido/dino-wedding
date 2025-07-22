@@ -87,7 +87,8 @@ body {
   padding-bottom: 5rem;
 }
 
-.home h2 {
+.home h2,
+.story h2 {
   color: var(--pink);
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
@@ -165,6 +166,11 @@ body {
   font-weight: 300;
 }
 
+.story {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
 /* ==== Media Query ==== */
 /* laptop */
 @media(max-width: 992px) {
@@ -214,5 +220,20 @@ body {
 
   .home .couple {
     margin-top: 35px;
+  }
+
+  .info .alamat {
+    font-size: 1.25rem;
+  }
+
+  .info .description {
+    font-size: 1.35rem;
+    font-weight: 300;
+  }
+
+  .tombolPeta {
+    font-size: 1.25rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
